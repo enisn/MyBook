@@ -1,3 +1,16 @@
-h1{
-    color:red;
+h1 {
+    color:rgba(180,1,132,1);
+}
+
+.cover-container{    
+    background-color: rgba(180,1,132,1);
+    background-image: linear-gradient(rgba(180,1,132,1), rgba(9,9,121,1));
+    padding: 25%;
+    color:white;
+    height: 100%;
+}
+
+.cover-container h1{
+    font-size: 72pt;
+    color:white !important;
 }
