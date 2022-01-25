@@ -9,6 +9,6 @@ else{
     Write-Host "Output folder: '$OutputFolder' was created successfully."
 }
 
-Get-Content $ChaptersFolder/*.md | Set-Content $OutputFolder/merged.md
+Get-Content $ChaptersFolder/**/*.md | Set-Content $OutputFolder/merged.md
 pandoc -f gfm -t html5 --metadata pagetitle="My Book" --css style.css $OutputFolder/merged.md -o $OutputFolder/result.html --self-contained
-pandoc -f gfm -t html5 --metadata pagetitle="My Book" --css style.css $OutputFolder/merged.md -o $OutputFolder/result.pdf
+pandoc -f gfm -t html5 --metadata pagetitle="My Book" --css style.css $OutputFolder/merged.md -o $OutputFolder/result.pdf -V geometry:margin=0in
