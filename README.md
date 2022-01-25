@@ -1,5 +1,7 @@
 # MyBook
  A simple solution for writing a book with markdown.
+ 
+ Check out the [built pdf from here](/my-book/built/result.pdf).
 
 
  # Getting Started
