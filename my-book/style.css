@@ -1,16 +1,25 @@
+body{
+    margin: 10rem;
+}
+
 h1 {
     color:rgba(180,1,132,1);
+    padding-top: 5rem;
 }
 
 .cover-container{    
+    margin: -10rem;
     background-color: rgba(180,1,132,1);
     background-image: linear-gradient(rgba(180,1,132,1), rgba(9,9,121,1));
-    padding: 25%;
+    padding-right:25%;
+    padding-left:25%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    height: 550pt;
     color:white;
-    height: 100%;
 }
 
 .cover-container h1{
-    font-size: 72pt;
+    font-size: 124pt;
     color:white !important;
 }
